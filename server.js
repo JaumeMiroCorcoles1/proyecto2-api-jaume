@@ -9,7 +9,7 @@ app.get("/estado", (req, res) => {
     res.json({
         puerta: "ABIERTA",
         prensa: "TRABAJANDO",
-        energia: 75
+        energia: 20
     });
 });
 
